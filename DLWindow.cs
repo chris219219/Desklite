@@ -31,7 +31,7 @@ public class DLWindow : GameWindow
     {
         base.OnLoad();
 
-        GL.ClearColor(0f, 0f, 0f, 0f);
+        GL.ClearColor(1.0f, 1.0f, 1.0f, 1.0f);
 
         _shader = new("shader.vert", "shader.frag");
 

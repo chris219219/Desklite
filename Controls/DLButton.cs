@@ -1,6 +1,6 @@
 ﻿namespace Desklite.Controls;
 
-public class DLButton
+public class DLButton : DLControl
 {
 
 }

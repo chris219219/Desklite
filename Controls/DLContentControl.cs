@@ -2,5 +2,5 @@
 
 public abstract class DLContentControl : DLControl
 {
-    private Color4 _contentColor = Color4.Transparent;
+    public DLColor ContentColor { get; set; } = DLColor.Transparent;
 }

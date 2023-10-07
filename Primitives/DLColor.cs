@@ -46,4 +46,9 @@ public readonly struct DLColor
     }
 
     public static readonly DLColor Transparent = new(255, 255, 255, 0);
+    public static readonly DLColor White = new(255, 255, 255, 255);
+    public static readonly DLColor Red = new(255, 0, 0, 255);
+    public static readonly DLColor Green = new(0, 255, 0, 255);
+    public static readonly DLColor Blue = new(0, 0, 255, 255);
+    public static readonly DLColor Black = new(0, 0, 0, 255);
 }

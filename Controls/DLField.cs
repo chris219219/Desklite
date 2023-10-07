@@ -1,6 +1,6 @@
 ﻿namespace Desklite.Controls;
 
-public class DLField
+public class DLField : DLContentControl
 {
 
 }
