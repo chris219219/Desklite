@@ -1,6 +1,4 @@
-﻿using System.Reflection.Metadata;
-
-namespace Desklite;
+﻿namespace Desklite;
 
 public class DLShader : IDisposable
 {
